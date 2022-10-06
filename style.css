@@ -31,4 +31,14 @@ body {
 
 .btn {
   padding: 10px;
+  display: block;
+  border-radius: 8px;
+    border: none;
+}
+
+.reset_btn {
+  padding: 5px;
+  background-color: red;
+  border-radius: 8px;
+  border: none;
 }
