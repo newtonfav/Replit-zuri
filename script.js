@@ -3,7 +3,6 @@ const dispLevel = document.querySelector('.level');
 const btn = document.querySelector('.btn');
 const input = document.querySelector(".input");
 const comment = document.querySelector('.comment');
-const reset = document.querySelector(".reset_btn")
 let gameLevel = 1;
 let score = 0;
 let max = 2
@@ -57,15 +56,4 @@ btn.addEventListener("click", (e) => {
     comment.textContent = 'Try Again😢😢';
     resetValue();
   }
-
-  console.log(randomNumber, max)
-})
-
-reset.addEventListener('click', (e) => {
-  e.preventDefault();
-   resetValue()
-   gameLevel = 1;
-   score = 0;
-   max = 2;
-   min = 0;
 })
